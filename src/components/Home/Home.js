@@ -2,18 +2,13 @@ import { Button, Container } from "@mui/material"
 import Grid from '@mui/material/Unstable_Grid2';
 
 import * as React from 'react';
-// import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
-// import CardActions from '@mui/material/CardActions';
+
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-// import CardMedia from '@mui/material/CardMedia';
 import "./Home.css"
 
 import aveoPortada from "../../images/aveoPortada.jpg"
-// import as24 from "../../images/asistencia247.jfif"
-// import asMed from "../../images/aisistenciamedica.jpg"
-// import asCam from "../../images/asistenciacamino.jpeg"
 import img1 from "../../images/img.svg"
 
 import shield from "../../images/shield_circle.svg"
@@ -35,6 +30,14 @@ function Home() {
                         </Link>
                     </div>
                     {/* <img src={aveoPortada} alt="Portada" /> */}
+                </div>
+                <div className="Especial">
+                    <h1>Para el que revise esta página.</h1>
+                    <h3>Aquí dejo el codigo tal cual creado con ReactJS</h3>
+                    <Link target="_blank" to="https://github.com/AbdielAldana/jupiter-seguros">
+                        <Button variant="outlined">Repositorio</Button>
+                    </Link>
+                    <h3 style={{color: "red"}}>NOTAS: Todas las páginas son utiles, pero no las hice por falta de tiempo, solo funciona <b>Inicio</b>, y en el perfil el <b>Registro</b>.</h3>
                 </div>
                 <div className="presentacion">
                     <Grid container spacing={4}>
