@@ -1,0 +1,33 @@
+#Footerw {
+    background-color: #4388a9;
+    margin-top: auto;
+    padding: 30px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Footerw .ajustFixed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Footerw .ajustFixed a {
+    text-decoration: none;
+    color: white;
+}
+
+#Footerw .ajustFixed a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#Footerw .ajustFixed.as {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
